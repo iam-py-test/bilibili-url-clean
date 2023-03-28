@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Bilibili URL Clean",
+  "version": "1.0",
+  "description": "Removes vd_source from bilibili pages.",
+  "permissions":[
+    "webNavigation",
+    "*://bilibili.com/*",
+    "*://*.bilibili.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
