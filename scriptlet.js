@@ -23,10 +23,5 @@
             newargs[2] = loadedurl.href.toString();
             return Reflect.apply(target, thisArg, newargs);
         }
-    })
-})()
-
-/// alert.js
-(() => {
-    alert(1);
+    });
 })()
