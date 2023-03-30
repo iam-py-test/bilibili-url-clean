@@ -1,0 +1,5 @@
+! Title: Bilibii clean filterlist
+! Expires: 2 days
+! This requires the scriptlet.js file as a uBo scriptlet file: https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation
+||bilibili.com^$removeparam=vd_source
+bilibili.com##+js(replace-state-clean,vd_source)
